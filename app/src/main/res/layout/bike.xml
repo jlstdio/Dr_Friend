@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                    android:text="자전거"
+                    android:textColor="@color/white"
+                    android:textSize="40dp"/>
+
+                <TextView
+                    android:gravity="bottom"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="일주일 동안"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="약 1시간, 1.2 Km"
+                    android:textSize="30dp"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/applelikeblack"
+                    android:text="그래프"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="코칭"
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="@color/applelikeblack"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="2.5"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:textColor="@color/applelikeblack"
+                        android:text="자전거나 체육관의 자전거를 이용하여 최소 30분씩 강도를 올려가며 타보세요 다리 근력운동에 탁월하고 유산소운동으로도 좋습니다."/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="다른 운동 해보기"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="@color/applelikeblack"/>
+
+                    <HorizontalScrollView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <android.support.v7.widget.CardView
+                                android:layout_marginRight="10dp"
+                                android:layout_width="160dp"
+                                android:layout_height="match_parent"
+                                app:cardBackgroundColor="@color/colorPrimary"
+                                app:cardCornerRadius="10dp"
+                                app:cardElevation="10dp">
+
+                                <TextView
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Running"
+                                    android:textSize="20dp"
+                                    android:textColor="@color/white"
+                                    android:textStyle="bold"/>
+
+                            </android.support.v7.widget.CardView>
+
+                            <android.support.v7.widget.CardView
+                                android:layout_marginRight="10dp"
+                                android:layout_width="160dp"
+                                android:layout_height="match_parent"
+                                app:cardBackgroundColor="@color/colorPrimary"
+                                app:cardCornerRadius="10dp"
+                                app:cardElevation="10dp">
+
+                                <TextView
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Treadmill"
+                                    android:textSize="20dp"
+                                    android:textColor="@color/white"
+                                    android:textStyle="bold"/>
+
+                            </android.support.v7.widget.CardView>
+
+                            <android.support.v7.widget.CardView
+                                android:layout_marginRight="10dp"
+                                android:layout_width="160dp"
+                                android:layout_height="match_parent"
+                                app:cardBackgroundColor="@color/colorPrimary"
+                                app:cardCornerRadius="10dp"
+                                app:cardElevation="10dp">
+
+                                <TextView
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Walking"
+                                    android:textSize="20dp"
+                                    android:textColor="@color/white"
+                                    android:textStyle="bold"/>
+
+                            </android.support.v7.widget.CardView>
+
+                            <android.support.v7.widget.CardView
+                                android:layout_marginRight="10dp"
+                                android:layout_width="160dp"
+                                android:layout_height="match_parent"
+                                app:cardBackgroundColor="@color/colorPrimary"
+                                app:cardCornerRadius="10dp"
+                                app:cardElevation="10dp">
+
+                                <TextView
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="More"
+                                    android:textSize="20dp"
+                                    android:textColor="@color/white"
+                                    android:textStyle="bold"/>
+
+                            </android.support.v7.widget.CardView>
+
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
